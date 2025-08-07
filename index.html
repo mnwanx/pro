@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="loading.css"/>
   <!--
     If you are serving your web app in a path other than the root, change the
     href value below to reflect the base path you are serving from.
@@ -14,7 +15,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <!-- <base href="/"> -->
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -33,6 +34,10 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <div class="loading">
+      <div class="loader"></div>
+  </div>
+  <script src="loading.js"></script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
